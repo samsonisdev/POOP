@@ -2,6 +2,7 @@
 # Note - static methods can't access or modify class state and generally for utility
 
 # So, in the code below, we have two attributes with the same name 'name' and self.name
+# (Read code)
 # when we change the name, the name = 'anonymous' doesn't really change
 # cuz in the method, changeName(), the method creates another attribute self.name
 # which doesn't affect the class attribute 'name'
