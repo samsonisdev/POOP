@@ -13,6 +13,9 @@
 
 # Functions like __add__, __init__, __sub__, etc. are called Dunder Functions
 
+# In the code below, we're making a class that adds and subtracts two complex numbers
+# using dunder functions
+
 class Complex:
 
     def __init__(self, real, img):
